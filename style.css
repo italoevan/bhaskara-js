@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+input{
+    display: block;
+}
+
+#box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: min-content;
+
+}
+
+input[type="number"]{
+margin-bottom: 3px;
+}
